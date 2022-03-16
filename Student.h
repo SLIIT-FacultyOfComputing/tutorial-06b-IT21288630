@@ -1,4 +1,5 @@
-class Student {
+class Student 
+{
   // private section
   private:
   //    int studentId
