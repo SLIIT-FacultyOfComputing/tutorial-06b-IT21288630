@@ -3,29 +3,37 @@
 using namespace std;
 
 // Implement setters and getters
-void setValues(int l, int w, int h)
+void Box::setLength(int l)
 {
   length = l;
+}
+
+void Box::setWidth(int w)
+{
   width = w;
+}
+
+void Box::setHeight(int h)
+{
   height = h;
 }
 
-void getHeight()
+int Box::getHeight()
 {
   cout << height;
 }
 
-void getLength()
+int Box::getLength()
 {
   cout << length;
 }
 
-void getWidth()
+int Box::getWidth()
 {
    cout << width;
 }
 
 // Implemenet the calcVolume() unction
 int Box::calcVolume() {
-  return length * width * height;
+  cout << length * width * height;
 }
