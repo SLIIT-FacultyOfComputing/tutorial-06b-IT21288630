@@ -12,17 +12,17 @@ void setValues(int l, int w, int h)
 
 void getHeight()
 {
-  cout << "Height : " << height << endl;
+  cout << height;
 }
 
 void getLength()
 {
-  cout << "Length : " << length << endl;
+  cout << length;
 }
 
 void getWidth()
 {
-   cout << "Width : " << width << endl;
+   cout << width;
 }
 
 // Implemenet the calcVolume() unction
