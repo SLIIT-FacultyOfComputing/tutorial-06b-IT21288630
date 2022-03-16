@@ -16,4 +16,5 @@ void getValues()
 }
 // Implemenet the calcVolume() unction
 int Box::calcVolume() {
+  return length * width * height;
 }
